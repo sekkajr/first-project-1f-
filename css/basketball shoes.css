@@ -1,0 +1,496 @@
+*{
+    margin: 0;
+     padding: 0;
+     list-style: none;
+     text-decoration: none;
+    }
+   
+    
+    header{
+        width: 100%;
+        height: 70px;
+        border-bottom: solid 1px rgba(167, 141, 141, 0.336);
+        font-family: 'Poppins';
+        background-color: beige;
+        position: fixed;
+    }
+    
+    header .inner{
+        width: 1300px; 
+        height: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    header .logo{
+        display: table;
+        height: 50%;
+        float: left;
+        
+    }
+    
+    header .logo div{
+        height: 100%;
+        display: table-cell;
+        vertical-align: middle;
+        
+    }
+    
+    header .logo img{
+        height: 50px;
+        margin-top: 7px; 
+        
+    }
+    
+    header nav{
+        height: 100%;
+    }
+    
+    header nav li{
+        display: table;
+        height: 100%;
+        float: left;
+        margin-right: 30px;
+        
+       
+    }
+
+    
+    header nav li:last-of-type{
+        margin-right: 0;
+    }
+    
+    header nav span {
+        display: table-cell;
+        vertical-align: middle;
+    }
+    
+    header nav a{
+        position: relative;
+        color: gray;
+        text-decoration: none;
+        letter-spacing: 0.5px;
+        padding:0 10px;
+        
+        
+    }
+    a:hover{
+        background-color: black;
+        border-radius: 14px;
+        width: 50%;
+
+    }
+    .cover{
+        background-image: url(../téléchargement.jpg);
+        width: 100%;
+        height: 250px;
+    }
+
+    .cover h1 {
+        
+        font-size: 170px;
+        text-align: center;
+        font-family:'poppins', sans-serif;
+        color: transparent;
+        -webkit-text-stroke: 1px #fff;
+        background: url(../assets/back.png);
+        -webkit-backgroundclip: text;
+        background-position: 0 0;
+        animation: back 10s linear infinite;
+        padding-top: 7px;
+    }
+    @keyframes back{
+100%{
+    background-position: 2000px 0;
+}
+
+    }
+    .group {
+        display: flex;
+        line-height: 28px;
+        align-items: center;
+        position: relative;
+        max-width: 190px;
+       }
+       
+       .input {
+        width: 100%;
+        height: 40px;
+        line-height: 28px;
+        padding: 0 1rem;
+        padding-left: 2.5rem;
+        border: 2px solid transparent;
+        border-radius: 8px;
+        outline: none;
+        background-color: #f3f3f4;
+        color: #0d0c22;
+        transition: .3s ease;
+       }
+       
+       .input::placeholder {
+        color: #9e9ea7;
+       }
+       
+       .input:focus, input:hover {
+        outline: none;
+        border-color: rgba(234,76,137,0.4);
+        background-color: #fff;
+        box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+       }
+       
+       .icon {
+        position: absolute;
+        left: 1rem;
+        fill: #9e9ea7;
+        width: 1rem;
+        height: 1rem;
+       }
+
+
+    .div1 .box1 {
+        width: 300px;
+        height: 350px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: beige
+        
+        
+    }
+    .div1 .box2 {
+        width: 300px;
+        height: 350px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color:beige;
+        
+        
+    }.div1 .box3 {
+        width: 300px;
+        height: 350px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: beige;
+        
+        
+    }
+    .div1 {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 20px;
+    }
+    .div2 .box1{
+        width: 300px;
+        height: 350px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color:beige;
+    }
+    .div2 .box2 {
+        width: 300px;
+        height: 350px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: beige;
+        
+        
+    }.div2 .box3 {
+        width: 300px;
+        height: 350px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: beige;
+    }
+    .div2{
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .div3 .box1 {
+        width: 300px;
+        height: 350px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: beige;
+        
+        
+    }
+    .div3 .box2 {
+        width: 300px;
+        height: 350px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color:beige;
+        
+        
+    }.div3 .box3 {
+        width: 300px;
+        height: 350px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: beige;
+        
+        
+    }
+    .div3 {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 20px;
+     }
+     .div4 .box1 {
+        width: 300px;
+        height: 350px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: beige
+        
+        
+    }
+    .div4 .box2 {
+        width: 300px;
+        height: 350px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color:beige;
+        
+        
+    }.div4 .box3 {
+        width: 300px;
+        height: 350px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: beige;
+        
+        
+    }
+    .div4 {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 20px;
+    }
+    .div5.box1 {
+        width: 300px;
+        height: 350px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: beige
+        
+        
+    }
+    .div5.box2 {
+        width: 300px;
+        height: 350px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color:beige;
+        
+        
+    }.div5.box3 {
+        width: 300px;
+        height: 350px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: beige;
+        
+        
+    }
+    .div5 {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 20px;
+    }
+    
+    .cover2{
+        background-color: blue;
+        width: 100%;
+        height: 700px;
+    }
+    #Contact .box1{
+      height: 500px;
+      width: 500px;
+      background-color: beige;
+      border-radius: 14px;
+    }
+    #Contact{
+        padding-top: 30px;
+        padding-left: 20px;
+    }
+    footer{
+        width: 100%;
+        height: 140px;
+        background-color: black;
+    }
+    footer h2{
+        font-family: 'Poppins';
+        text-align: center;
+        color: #fff;
+    }
+    footer p{
+       font-family:  'Poppins';
+       text-align: center;
+       padding-left: 20px;
+       padding-right: 20px;
+       color: #fff;
+    }
+   .box1:hover{
+    scale: 1.02;
+   }
+   .box2:hover{
+    scale: 1.02;
+   }
+   .box3:hover{
+    scale: 1.02;
+   }
+   .icon {
+    font-size: 24px; 
+    margin-right: 10px;
+    
+   }
+.btn2{
+        --border-color: linear-gradient(-45deg, #ffae00, #7e03aa, #00fffb);
+        --border-width: .125em;
+        --curve-size: .5em;
+        --blur: 30px;
+        --bg: #080312;
+        -moz-border-top-colors: blue;;
+        color: var(--color);
+        position: relative;
+        isolation: isolate;
+        display: inline-grid;
+        place-content: center;
+        padding: .5em 1.5em;
+        font-size: 17px;
+        border: 0;
+        text-transform: uppercase;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, .6);
+        clip-path: polygon(
+                
+                  0% var(--curve-size),
+      
+                  var(--curve-size) 0,
+                  
+                  100% 0,
+                  100% calc(100% - var(--curve-size)),
+      
+                  
+                  calc(100% - var(--curve-size)) 100%,
+                  
+                  0 100%);
+        transition: color 250ms;
+      }
+      
+      .btn2::after,
+      .btn2::before {
+        content: '';
+        position: absolute;
+        inset: 0;
+      }
+      
+      .btn2::before {
+        background: var(--border-color);
+        background-size: 300% 300%;
+        animation: move-bg7234 5s ease infinite;
+        z-index: -2;
+      }
+      
+      @keyframes move-bg7234 {
+        0% {
+          background-position: 31% 0%
+        }
+      
+        50% {
+          background-position: 70% 100%
+        }
+      
+        100% {
+          background-position: 31% 0%
+        }
+      }
+      
+      .btn2::after {
+        background: var(--bg);
+        z-index: -1;
+        clip-path: polygon(
+                  
+                  var(--border-width) 
+                  calc(var(--curve-size) + var(--border-width) * .5),
+      
+                  calc(var(--curve-size) + var(--border-width) * .5) var(--border-width),
+      
+                  
+                  calc(100% - var(--border-width)) 
+                  var(--border-width),
+      
+                  calc(100% - var(--border-width)) 
+                  calc(100% - calc(var(--curve-size) + var(--border-width) * .5)),
+      
+                  
+                  calc(100% - calc(var(--curve-size) + var(--border-width) * .5)) calc(100% - var(--border-width)),
+                  
+                  var(--border-width) calc(100% - var(--border-width)));
+        transition: clip-path 500ms;
+      }
+      
+      .btn2:where(:hover, :focus)::after {
+        clip-path: polygon(
+                      
+                      calc(100% - var(--border-width)) 
+      
+                      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5)),
+          
+                      calc(100% - var(--border-width))
+      
+                      var(--border-width),
+          
+                      
+                      calc(100% - var(--border-width))
+      
+                       var(--border-width),
+          
+                      calc(100% - var(--border-width)) 
+      
+                      calc(100% - calc(var(--curve-size) + var(--border-width) * .5)),
+          
+                      
+                      calc(100% - calc(var(--curve-size) + var(--border-width) * .5)) 
+                      calc(100% - var(--border-width)),
+      
+                      
+                      calc(100% - calc(var(--curve-size) + var(--border-width) * 0.5))
+                      calc(100% - var(--border-width)));
+        transition: 200ms;
+      }
+      
+      .btn:where(:hover, :focus) {
+        color: #fff;
+      }
